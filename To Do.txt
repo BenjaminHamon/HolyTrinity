@@ -1,0 +1,13 @@
+Animations
+- Make the sprite sheets
+  * Footman
+  * Grunt
+  * Archer
+  * Mage
+- Create the animation clips
+  * Attack, move, idle for Footman, Grunt, Archer, Mage
+- Footman base animator controller
+- Override footman animator controller for Grunt, Archer, Mage.
+
+- Behaviour/Strategy interface to define a entity behaviour.
+  * Implementing classes: PlayerStrategy, HealerStrategy, etc.

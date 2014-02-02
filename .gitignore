@@ -57,7 +57,7 @@ build/
 *_i.c
 *_p.c
 *.ilk
-*.meta
+# *.meta // Needed for Unity3D
 *.obj
 *.pch
 *.pdb
@@ -213,3 +213,11 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+
+#############
+## Unity3D
+#############
+
+Temp/
+Library/
